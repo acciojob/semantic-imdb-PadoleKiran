@@ -7,6 +7,86 @@
 </head>
 
 <body>
+	<header>
+		<h1>Movie heading</h1>
+		<nav>
+			<a id="nav-actor">Actor</a>
+			<a id="nav-quote">Quote</a>
+		</nav>
+	</header>
+
+	<!-- <main></main> -->
+	
+	<!-- <summary id=""></summary> -->
+
+	<main>
+      <!-- Summary section (must contain text) -->
+      <section class="summary" id="summary">
+        <h2>Summary</h2>
+        <div class="content">
+          <p>
+            <strong>Inception</strong> (2010) is a science-fiction heist film directed by Christopher Nolan.
+            The story follows Dom Cobb, a skilled thief who specializes in extracting secrets
+            from people's subconscious during dream states. Cobb is offered a chance to have
+            his criminal record erased if he can successfully perform an almost-impossible task:
+            <em>plant</em> an idea into someone's mind (inception) rather than steal one.
+            The film explores themes of memory, grief, reality vs. illusion, and the ethics of manipulating minds.
+          </p>
+        </div>
+      </section>
+
+      <!-- Left column content: actor and quote sections -->
+      <section class="content" aria-labelledby="actor-heading">
+        <h2 id="actor-heading">Actors</h2>
+        <div id="actor">
+          <p class="small">Main cast and roles in Inception:</p>
+          <ul>
+            <li><strong>Leonardo DiCaprio</strong> as Dom Cobb (the extractor and protagonist)</li>
+            <li><strong>Joseph Gordon-Levitt</strong> as Arthur (Cobb's point-man)</li>
+            <li><strong>Ellen Page</strong> as Ariadne (the architect)</li>
+            <li><strong>Tom Hardy</strong> as Eames (the forger)</li>
+            <li><strong>Ken Watanabe</strong> as Saito (the client)</li>
+            <li><strong>Marion Cotillard</strong> as Mal (Cobb's late wife)</li>
+          </ul>
+          <p>Each actor contributes strongly to the film’s blend of emotional stakes and high-concept action.</p>
+        </div>
+
+        <div id="quote" style="margin-top:18px;">
+          <h2>Favorite Quote</h2>
+          <div class="quote-box" aria-live="polite">
+            "You mustn't be afraid to dream a little bigger, darling." <br/>
+            — Eames
+          </div>
+          <p class="small">This line is a playful reminder of creativity and risk-taking even in the middle of a high-pressure mission.</p>
+        </div>
+      </section>
+
+      <!-- Right column: aside with IMDb rating and release date -->
+      <aside>
+        <h3>Movie Facts</h3>
+        <p><span class="small">IMDb Rating:</span> <strong>8.8 / 10</strong></p>
+        <p><span class="small">Release Date:</span> <strong>July 16, 2010</strong></p>
+        <p class="small" style="margin-top:10px;">
+          Runtime: 148 minutes<br/>
+          Director: Christopher Nolan
+        </p>
+      </aside>
+    </main>
+
+	<aside>
+		<h3>Movie Facts</h3>
+        <p><span class="small">IMDb Rating:</span> <strong>8.8 / 10</strong></p>
+        <p><span class="small">Release Date:</span> <strong>July 16, 2010</strong></p>
+        <p class="small" style="margin-top:10px;">
+          Runtime: 148 minutes<br/>
+          Director: Christopher Nolan
+        </p>
+	</aside>
+
+	<footer>
+		<p>Produced by: <strong>Kiran Padole</strong></p>
+      <p class="small">This page is for learning/portfolio purposes. Replace the movie and content as needed.</p>
+	</footer>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
